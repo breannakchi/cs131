@@ -1,0 +1,93 @@
+    1  pwd
+    2  mkdir test
+    3  ls
+    4  rmdir test
+    5  ls
+    6  passwd
+    7  mkdir sampleProject
+    8  ls -ltr
+    9  cd sampleProject/
+   10  touch sampleFile.txt
+   11  git init
+   12  git add .
+   13  git status
+   14  git config --global breannakchi
+   15  git config --global user.name "breannakchi"
+   16  git config --global user.email breannakchi@gmail.com
+   17  cd ~/.ssh && ssh-keygen
+   18  mkdir ~/.ssh
+   19  cd ~/.ssh && ssh-keygen
+   20  cat id_rsa.pub
+   21  git remote add origin git@github.com:<breannakchi>/<sampleProject>.git
+   22  git remote add origin https://github.com/breannakchi/sampleProject.git
+   23  git commit -m "hello world"
+   24  git remote add origin https://github.com/breannakchi/sampleProject.git
+   25  git init
+   26  git remote add origin https://github.com/breannakchi/sampleProject.git
+   27  git commit -m "hello world"
+   28  git push --set-upstream origin master
+   29  git add .
+   30  git push --set-upstream origin master
+   31  git add .
+   32  git commit -m "hello world"
+   33  git push --set-upstream origin master
+   34  git remote add origin git@github.com:breannakchi/sampleProject.git
+   35  git remote -v
+   36  git remote set-url origin git@github.com:breannakchi/sampleProject.git
+   37  git remove -v
+   38  git remote -v
+   39  git add .
+   40  git commit -m "hello world"
+   41  git push --set-upstream origin master
+   42  wget www.github.com
+   43  pwd
+   44  mkdir myproject
+   45  cd myproject/
+   46  git init
+   47  touch newfile.txt
+   48  ls
+   49  git status
+   50  git add newfile.txt
+   51  git status
+   52  git commit -m "this is my first commit!"
+   53  git status
+   54  git branch
+   55  git checkout -b my-new-branch
+   56  git branch
+   57  git remote add origin git@github.com:breannakchi/newrepo.git
+   58  git push -u origin main
+   59  git config --global user.email "breannakchi@gmail.com"
+   60  git config --global user.name
+   61  git remote add origin git@github.com:breannakchi/newrepo.git
+   62  git push -u origin main
+   63  git status
+   64  git add .
+   65  git status
+   66  git remote add origin git@github.com:breannakchi/newrepo.git
+   67  git commit -m "this is my first commit"
+   68  git push -u origin master
+   69  git push origin my-new-branch
+   70  git pull
+   71  git pull origin master
+   72  git log
+   73  git checkout master
+   74  git log
+   75  pwd
+   76  cd..
+   77  cd.
+   78  cd ..
+   79  pwd
+   80  mkdir cs131
+   81  ls
+   82  cd cs131
+   83  git init
+   84  git remote add origin git@github.com:breannakchi/cs131.git
+   85  git branch
+   86  git status
+   87  git branch -b worksheet1
+   88  git checkout -b worksheet1
+   89  git branch
+   90  git staus
+   91  git status
+   92  git add .
+   93  history > cmds.log
